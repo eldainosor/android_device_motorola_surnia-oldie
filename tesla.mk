@@ -1,5 +1,4 @@
-# Copyright (C) 2014-2016 The CyanogenMod Project
-#               2017 The LineageOS Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,7 +20,7 @@ TARGET_SCREEN_HEIGHT := 960
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surnia
-PRODUCT_NAME := lineage_surnia
+PRODUCT_NAME := tesla_surnia
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := surnia
