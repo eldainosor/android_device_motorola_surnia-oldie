@@ -27,3 +27,6 @@ PRODUCT_RELEASE_NAME := surnia
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto E LTE (2nd gen)"
+
+## Adding QCOM stuff for telephony
+$(call inherit-product, vendor/tesla/config/caf_fw.mk)
