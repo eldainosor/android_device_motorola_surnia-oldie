@@ -15,6 +15,9 @@
 
 $(call inherit-product, device/motorola/surnia/full_surnia.mk)
 
+# Adding config for full phone
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
