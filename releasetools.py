@@ -39,7 +39,7 @@ def AddAssertion(info):
   info.script.AppendExtra('ui_print("fastboot oem config fsg-id ringplus if you are a RingPlus user");')
   info.script.AppendExtra('ui_print("fastboot oem config fsg-id sprint   if you are a Sprint user or not listed");')
   info.script.AppendExtra('ui_print("fastboot oem config fsg-id virgin   if you are a Virgin Mobile user");')
-  info.script.AppendExtra('ui_print("and then flash LineageOS again");')
+  info.script.AppendExtra('ui_print("and then flash Resurrection Remix again");')
   info.script.AppendExtra('abort("**********");')
   info.script.AppendExtra('endif;')
 
