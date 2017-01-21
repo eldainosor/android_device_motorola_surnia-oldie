@@ -16,4 +16,4 @@
 # permissions and limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_surnia.mk
+    $(LOCAL_DIR)/citrus.mk

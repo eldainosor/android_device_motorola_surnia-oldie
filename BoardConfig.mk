@@ -43,4 +43,4 @@ BOARD_CACHEIMAGE_PARTITION_SIZE     := 268435456 #524288 * 512 mmcblk0p43
 TARGET_POWERHAL_HEADER_PATH := $(DEVICE_PATH)/power
 
 # Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP += device/motorola/surnia/system.prop

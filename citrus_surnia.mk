@@ -19,6 +19,6 @@ $(call inherit-product, device/motorola/surnia/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surnia
-PRODUCT_NAME := full_surnia
+PRODUCT_NAME := citrus_surnia
 
 $(call inherit-product-if-exists, vendor/motorola/surnia/surnia-vendor.mk)
