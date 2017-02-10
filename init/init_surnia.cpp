@@ -63,7 +63,6 @@ void vendor_load_properties()
         property_set("ro.build.description", "surnia_verizon-user 5.1 LPI23.29-17.5 5 release-keys");
         property_set("ro.build.fingerprint", "motorola/surnia_verizon/surnia_cdma:5.1/LPI23.29-17.5/5:user/release-keys");
         property_set("ro.mot.build.customerid", "verizon");
-        property_set("ro.ril.force_eri_from_xml", "true");
         property_set("ro.telephony.get_imsi_from_sim", "true");
         property_set("ro.com.google.clientidbase.am", "android-verizon");
         property_set("ro.com.google.clientidbase.ms", "android-verizon");
@@ -111,7 +110,6 @@ void vendor_load_properties()
         property_set("persist.radio.multisim.config", "");
         property_set("ro.cdma.international.eri", "2,74,124,125,126,157,158,159,193,194,195,196,197,198,228,229,230,231,232,233,234,235");
         property_set("ro.com.android.dataroaming","false");
-	property_set("ro.ril.force_eri_from_xml", "true");
     } else if (radio == "0x4") {
         /* XT1524 */
         gsm_properties(false);
@@ -136,8 +134,8 @@ void vendor_load_properties()
         property_set("ro.product.model", "XT1521");
         property_set("ro.product.device", "surnia_uds");
         property_set("ro.build.product", "surnia_uds");
-        property_set("ro.build.description", "surnia_reteu-user 5.0.2 LXI22.50-53.1 1 release-keys");
-        property_set("ro.build.fingerprint", "motorola/surnia_reteu/surnia_umts:5.0.2/LXI22.50-53.1/1:user/release-keys");
+        property_set("ro.build.description", "surnia_retasia_ds-user 5.0.2 LXI22.50-53.1 1 release-keys");
+        property_set("ro.build.fingerprint", "motorola/surnia_retasia_ds/surnia_uds:5.0.2/LXI22.50-53.1/1:user/release-keys");
         property_set("ro.mot.build.customerid", "retasiaall");
     } else if (radio == "0x8") {
         /* XT1514 */
