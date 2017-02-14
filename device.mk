@@ -40,3 +40,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.target.rc
+
+#Using this overlay for bootanimations. It's not according to our screen but well...
+SMALL_BOOTANIMATION_SIZE := 720x720
